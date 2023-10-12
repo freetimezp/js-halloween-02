@@ -160,7 +160,9 @@ img {
 }
 
 /* Change background header */
-
+.scroll-header {
+  background-color: var(--black-color);
+}
 
 /*=============== HOME ===============*/
 .home {
@@ -345,6 +347,7 @@ img {
     max-width: 768px;
     left: 0;
     right: 0;
+    bottom: 10rem;
     margin-inline: auto;
   }
 }
@@ -374,7 +377,7 @@ img {
 
 @media screen and (min-width: 1400px) {
   .home {
-    height: initial;
+    height: 120vh;
   }
   .home__container {
     height: 960px;
